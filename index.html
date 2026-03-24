@@ -1,34 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Govinda Arya</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Govinda Arya | PhD Research Scholar</title>
     <style>
-        body { font-family: Arial; max-width: 800px; margin: auto; }
-        h1 { color: #2c3e50; }
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: auto; padding: 20px; background-color: #fcfcfc; }
+        header { border-bottom: 2px solid #eee; padding-bottom: 20px; margin-bottom: 30px; display: flex; align-items: center; justify-content: space-between; }
+        .bio-info h1 { margin: 0; color: #2c3e50; font-size: 2.5em; }
+        .links { margin-top: 10px; }
+        .links a { margin-right: 15px; text-decoration: none; color: #3498db; font-weight: bold; }
+        .links a:hover { text-decoration: underline; }
+        section { margin-bottom: 40px; }
+        h2 { color: #2c3e50; border-left: 5px solid #3498db; padding-left: 15px; margin-bottom: 20px; }
+        .pub-item, .proj-item { margin-bottom: 15px; padding-left: 5px; }
+        .pub-title { font-weight: bold; display: block; }
+        .venue { font-style: italic; color: #7f8c8d; }
+        .highlight { color: #e67e22; font-weight: bold; }
+        table { width: 100%; border-collapse: collapse; }
+        td { padding: 8px 0; border-bottom: 1px solid #eee; }
+        .date { text-align: right; color: #7f8c8d; width: 120px; }
     </style>
 </head>
 <body>
 
-<h1>Govinda Arya</h1>
+<header>
+    <div class="bio-info">
+        <h1>Govinda Arya</h1> [cite: 1]
+        <p><strong>PhD Student in Machine Learning</strong><br>
+        Indraprastha Institute of Information Technology Delhi (IIIT Delhi)</p> [cite: 7, 8]
+        <div class="links">
+            <a href="mailto:govindai@iiitd.ac.in">Email</a> [cite: 2]
+            <a href="https://github.com/yourusername">GitHub</a> [cite: 2]
+            <a href="https://linkedin.com/in/yourusername">LinkedIn</a> [cite: 2]
+            <a href="yourwebsite.com">Website</a> [cite: 2]
+        </div>
+    </div>
+</header>
 
-<p>PhD Research Scholar, IIIT Delhi</p>
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am a PhD Research Scholar at <strong>IIIT Delhi</strong> focusing on the theoretical foundations of Machine Learning. [cite: 7, 8] Previously, I completed my 5-Year Integrated M.Sc. in Mathematical Sciences from Maharshi Dayanand University with an 80.4% score. [cite: 9, 10] I am a recipient of the <strong>UGC-CSIR NET JRF</strong> with an All India Rank of 64. [cite: 39, 40, 41]</p>
+</section>
 
-<h2>Research Interests</h2>
-<p>Continual Learning, Optimization, Machine Learning</p>
+<section id="interests">
+    <h2>Research Interests</h2>
+    <ul>
+        <li><strong>Core:</strong> Continual Learning, Continual Federated Learning, Continual Unlearning. </li>
+        <li><strong>Theory:</strong> Statistical Machine Learning, Optimization, and Theoretical Machine Learning. </li>
+    </ul>
+</section>
 
-<h2>Publications</h2>
-<ul>
-<li>Continual Learning via Constrained Optimization (AISTATS - under review)</li>
-</ul>
+<section id="publications">
+    <h2>Publications</h2>
+    <div class="pub-item">
+        <span class="pub-title">"Theoretical Foundations of Continual Learning via Drift-Plus-Penalty"</span> [cite: 22]
+        <span>Govinda Arya, Nazreen Shah, Ranjitha Prasad, Bharath B. N.</span> [cite: 22]
+        <span class="venue">Submitted to TMLR (Under Review)</span> [cite: 23]
+    </div>
+    <div class="pub-item">
+        <span class="pub-title">"Continual Learning via Constrained Stochastic Optimization: A Drift-Plus-Penalty Framework"</span> [cite: 20]
+        <span>Govinda Arya, Nazreen Shah, Ranjitha Prasad, Bharath B. N.</span> [cite: 20]
+        <span class="venue">Young Researchers Symposium, CODS-2025</span> [cite: 21]
+    </div>
+</section>
 
-<h2>Projects</h2>
-<ul>
-<li>Class-Incremental Learning Framework</li>
-<li>3D Image Generation using (x,y,z,t)</li>
-</ul>
+<section id="projects">
+    <h2>Selected Projects</h2>
+    <div class="proj-item">
+        <strong>3-D Image Generation</strong> <span class="venue">(2024–Present)</span> [cite: 25, 28]
+        <p>Developed a 3D image generation framework using coordinate-based neural representations to model spatial-temporal inputs (x, y, z, t). Implemented in PyTorch. [cite: 26, 27, 29]</p>
+    </div>
+    <div class="proj-item">
+        <strong>Constrained Optimization for Continual Learning</strong> <span class="venue">(2024)</span> [cite: 32, 33]
+        <p>Formulated continual learning as a constrained stochastic optimization problem, proposing a drift-plus-penalty objective for the stability-plasticity tradeoff. [cite: 35, 36]</p>
+    </div>
+</section>
 
-<h2>Contact</h2>
-<p>Email: govindai@iiitd.ac.in</p>
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <table>
+        <tr>
+            <td><strong>Languages & Tools</strong></td>
+            <td>Python, MATLAB, PyTorch, TensorFlow, LaTeX</td> [cite: 46, 49]
+        </tr>
+        <tr>
+            <td><strong>Mathematics</strong></td>
+            <td>Linear Algebra, Real Analysis, Probability, Statistics, Calculus</td> [cite: 48]
+        </tr>
+    </table>
+</section>
 
 </body>
 </html>

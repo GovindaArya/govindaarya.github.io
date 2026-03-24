@@ -1,95 +1,191 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Govinda Arya | PhD Research Scholar</title>
-    <style>
-        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: auto; padding: 20px; background-color: #fcfcfc; }
-        header { border-bottom: 2px solid #eee; padding-bottom: 20px; margin-bottom: 30px; display: flex; align-items: center; justify-content: space-between; }
-        .bio-info h1 { margin: 0; color: #2c3e50; font-size: 2.5em; }
-        .links { margin-top: 10px; }
-        .links a { margin-right: 15px; text-decoration: none; color: #3498db; font-weight: bold; }
-        .links a:hover { text-decoration: underline; }
-        section { margin-bottom: 40px; }
-        h2 { color: #2c3e50; border-left: 5px solid #3498db; padding-left: 15px; margin-bottom: 20px; }
-        .pub-item, .proj-item { margin-bottom: 15px; padding-left: 5px; }
-        .pub-title { font-weight: bold; display: block; }
-        .venue { font-style: italic; color: #7f8c8d; }
-        .highlight { color: #e67e22; font-weight: bold; }
-        table { width: 100%; border-collapse: collapse; }
-        td { padding: 8px 0; border-bottom: 1px solid #eee; }
-        .date { text-align: right; color: #7f8c8d; width: 120px; }
-    </style>
+  <meta charset="UTF-8">
+  <title>Govinda Arya | PhD Student</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      margin: 0;
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0f172a;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      opacity: 0.9;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      border-left: 5px solid #2563eb;
+      padding-left: 10px;
+      color: #0f172a;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      margin-top: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    .links a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: #2563eb;
+      font-weight: 500;
+    }
+
+    .links a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #e2e8f0;
+      margin-top: 40px;
+    }
+  </style>
 </head>
+
 <body>
 
 <header>
-    <div class="bio-info">
-        <h1>Govinda Arya</h1> [cite: 1]
-        <p><strong>PhD Student in Machine Learning</strong><br>
-        Indraprastha Institute of Information Technology Delhi (IIIT Delhi)</p> [cite: 7, 8]
-        <div class="links">
-            <a href="mailto:govindai@iiitd.ac.in">Email</a> [cite: 2]
-            <a href="https://github.com/yourusername">GitHub</a> [cite: 2]
-            <a href="https://linkedin.com/in/yourusername">LinkedIn</a> [cite: 2]
-            <a href="yourwebsite.com">Website</a> [cite: 2]
-        </div>
-    </div>
+  <h1>Govinda Arya</h1>
+  <p>PhD Student in Machine Learning | IIIT Delhi</p>
+
+  <div class="links">
+    <a href="#">Email</a>
+    <a href="#">GitHub</a>
+    <a href="#">LinkedIn</a>
+    <a href="#">Website</a>
+  </div>
 </header>
 
-<section id="about">
+<div class="container">
+
+  <section>
     <h2>About Me</h2>
-    <p>I am a PhD Research Scholar at <strong>IIIT Delhi</strong> focusing on the theoretical foundations of Machine Learning. [cite: 7, 8] Previously, I completed my 5-Year Integrated M.Sc. in Mathematical Sciences from Maharshi Dayanand University with an 80.4% score. [cite: 9, 10] I am a recipient of the <strong>UGC-CSIR NET JRF</strong> with an All India Rank of 64. [cite: 39, 40, 41]</p>
-</section>
+    <div class="card">
+      <p>
+        I am a PhD Research Scholar at IIIT Delhi focusing on the theoretical
+        foundations of Machine Learning.
+      </p>
+      <p>
+        I completed my 5-Year Integrated M.Sc. in Mathematical Sciences from
+        Maharshi Dayanand University with an 80.4% score.
+      </p>
+      <p>
+        UGC-CSIR NET JRF Qualified with All India Rank 64.
+      </p>
+    </div>
+  </section>
 
-<section id="interests">
+  <section>
     <h2>Research Interests</h2>
-    <ul>
-        <li><strong>Core:</strong> Continual Learning, Continual Federated Learning, Continual Unlearning. </li>
-        <li><strong>Theory:</strong> Statistical Machine Learning, Optimization, and Theoretical Machine Learning. </li>
-    </ul>
-</section>
+    <div class="card">
+      <strong>Core:</strong>
+      <ul>
+        <li>Continual Learning</li>
+        <li>Continual Federated Learning</li>
+        <li>Continual Unlearning</li>
+      </ul>
 
-<section id="publications">
+      <strong>Theory:</strong>
+      <ul>
+        <li>Statistical Machine Learning</li>
+        <li>Optimization</li>
+        <li>Theoretical Machine Learning</li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
     <h2>Publications</h2>
-    <div class="pub-item">
-        <span class="pub-title">"Theoretical Foundations of Continual Learning via Drift-Plus-Penalty"</span> [cite: 22]
-        <span>Govinda Arya, Nazreen Shah, Ranjitha Prasad, Bharath B. N.</span> [cite: 22]
-        <span class="venue">Submitted to TMLR (Under Review)</span> [cite: 23]
-    </div>
-    <div class="pub-item">
-        <span class="pub-title">"Continual Learning via Constrained Stochastic Optimization: A Drift-Plus-Penalty Framework"</span> [cite: 20]
-        <span>Govinda Arya, Nazreen Shah, Ranjitha Prasad, Bharath B. N.</span> [cite: 20]
-        <span class="venue">Young Researchers Symposium, CODS-2025</span> [cite: 21]
-    </div>
-</section>
+    <div class="card">
+      <p>
+        <strong>Theoretical Foundations of Continual Learning via Drift-Plus-Penalty</strong><br>
+        Authors: Govinda Arya, Nazreen Shah, Ranjitha Prasad, Bharath B. N.<br>
+        Status: Submitted to TMLR (Under Review)
+      </p>
 
-<section id="projects">
-    <h2>Selected Projects</h2>
-    <div class="proj-item">
-        <strong>3-D Image Generation</strong> <span class="venue">(2024–Present)</span> [cite: 25, 28]
-        <p>Developed a 3D image generation framework using coordinate-based neural representations to model spatial-temporal inputs (x, y, z, t). Implemented in PyTorch. [cite: 26, 27, 29]</p>
-    </div>
-    <div class="proj-item">
-        <strong>Constrained Optimization for Continual Learning</strong> <span class="venue">(2024)</span> [cite: 32, 33]
-        <p>Formulated continual learning as a constrained stochastic optimization problem, proposing a drift-plus-penalty objective for the stability-plasticity tradeoff. [cite: 35, 36]</p>
-    </div>
-</section>
+      <hr>
 
-<section id="skills">
+      <p>
+        <strong>Continual Learning via Constrained Stochastic Optimization</strong><br>
+        Authors: Govinda Arya et al.<br>
+        Venue: CODS-2025 (Young Researchers Symposium)
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="card">
+      <p>
+        <strong>3-D Image Generation (2024–Present)</strong><br>
+        Developed a 3D image generation framework using coordinate-based neural
+        representations (x, y, z, t) in PyTorch.
+      </p>
+
+      <hr>
+
+      <p>
+        <strong>Constrained Optimization for Continual Learning (2024)</strong><br>
+        Proposed a drift-plus-penalty objective for stability-plasticity tradeoff.
+      </p>
+    </div>
+  </section>
+
+  <section>
     <h2>Technical Skills</h2>
-    <table>
-        <tr>
-            <td><strong>Languages & Tools</strong></td>
-            <td>Python, MATLAB, PyTorch, TensorFlow, LaTeX</td> [cite: 46, 49]
-        </tr>
-        <tr>
-            <td><strong>Mathematics</strong></td>
-            <td>Linear Algebra, Real Analysis, Probability, Statistics, Calculus</td> [cite: 48]
-        </tr>
-    </table>
-</section>
+    <div class="card">
+      <strong>Languages & Tools:</strong>
+      <p>Python, MATLAB, PyTorch, TensorFlow, LaTeX</p>
+
+      <strong>Mathematics:</strong>
+      <p>Linear Algebra, Real Analysis, Probability, Statistics, Calculus</p>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2026 Govinda Arya</p>
+</footer>
 
 </body>
 </html>
+```
